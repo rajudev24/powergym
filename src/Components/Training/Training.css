@@ -1,0 +1,39 @@
+.training{
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(26, 24, 24);
+    margin: 10px;
+}
+.training img{
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.course-deatils{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+.course-title{
+    color: white;
+    font-size: 18px;
+}
+.joinBtn{
+    background-color: lightslategrey;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+}
+.joinBtn:hover{
+    background-color: tomato;
+}
+
+@media only screen and (max-width: 576px){
+    .training{
+        text-align: center;
+        margin: 0px;
+        padding: 10px 0px;
+    }
+}

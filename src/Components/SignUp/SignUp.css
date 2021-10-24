@@ -1,0 +1,23 @@
+.signUp{
+    background-image: url(https://i.ibb.co/GdKD51k/pexels-scott-webb-136404.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpForm{
+   background-color: rgb(224, 224, 224);
+   border-radius: 10px;
+   padding: 30px;
+    width: 30%;
+}
+
+@media only screen and (max-width: 576px){
+    .signUpForm{
+        width: 70%;
+    }
+}

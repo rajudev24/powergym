@@ -1,0 +1,42 @@
+.trainers-section{
+    background-color:  rgb(34, 33, 33);
+    padding-bottom: 60px;
+    position: relative;
+}
+.home-text{
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+.trainers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-column-gap: 20px; */
+}
+.trainers img{
+    margin-top: 30px;
+    height: 500px;
+    margin-left: 25px;
+    border-radius: 20px;
+}
+
+.trainer-details{
+    color: white;
+    text-align: center;
+    background-color: tomato;
+    padding: 15px 40px;
+    margin: 80px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0px;
+    margin-right: 20px;
+}
+.trainer-details:hover{
+    background-color: lightslategrey;
+}
+
+@media only screen and (max-width: 576px){
+    .trainers{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

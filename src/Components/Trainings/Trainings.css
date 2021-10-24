@@ -1,0 +1,39 @@
+.trainings-section{
+    background-color:  rgb(34, 33, 33);
+    padding-bottom: 60px;
+}
+.trainings{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    padding: 20px;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+    /* background-color: black; */
+}
+.services-text{
+    padding-top: 90px;
+    color: tomato;
+    text-align: center;
+    
+}
+
+.program-text{
+    color: white;
+    font-size: 50px ;
+    font-weight: 700;
+    padding: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+    .trainings{
+        grid-template-columns: repeat(1,1fr);
+        /* background-color: lightgray; */
+        margin-left: 0px;
+        text-align: center;
+    }
+    .program-text{
+        font-size: 30px;
+    }
+}

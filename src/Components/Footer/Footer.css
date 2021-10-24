@@ -1,0 +1,33 @@
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 10px ;
+    background-color: rgb(19, 18, 18);
+}
+
+.brand-name{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+.brand-moto{
+    color: white;
+    font-size: 25px
+
+}
+.links-list{
+    color: white;
+}
+.social{
+    color: white;
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 576px){
+    .footer-section{
+        flex-direction: column;
+        text-align: center;
+        /* margin-left: 0px; */
+    }
+    
+}
