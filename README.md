@@ -1,6 +1,8 @@
 # Power Gym
 
-## Live Site: 
+## Live Site: https://power-gyms.netlify.app/
+
+### Technology Uses: JavaScript, React Js, Firebase, HTML, CSS, Bootstrap.
 
 ## About website
 
